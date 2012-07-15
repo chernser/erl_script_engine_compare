@@ -1,0 +1,12 @@
+{application, erlv8_try,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { erlv8_try_app, []}},
+  {env, []}
+ ]}.

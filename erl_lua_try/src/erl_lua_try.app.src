@@ -1,0 +1,12 @@
+{application, erl_lua_try,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { erl_lua_try_app, []}},
+  {env, []}
+ ]}.

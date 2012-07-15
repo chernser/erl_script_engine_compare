@@ -1,0 +1,12 @@
+{application, erlang_js_try,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { erlang_js_try_app, []}},
+  {env, []}
+ ]}.
