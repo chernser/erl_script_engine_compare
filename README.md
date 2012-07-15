@@ -34,10 +34,13 @@ About: "erlang_js is a linked-in driver, API, and OTP application that embeds Mo
 Note: to build http://lists.basho.com/pipermail/riak-users_lists.basho.com/2010-February/000436.html may be useful
 
 Answers: 
+
 1. How much memory:
 	Seems does not do pre-allocation. 400 instaces consumed about 150M of virtual memory
+
 2. How many concurrent instances:
 	As much as erlang VM allows
+
 3. How easy:
 	There are lack of documentation, but it is quite easy to find examples. 
 
@@ -47,6 +50,7 @@ Repo: https://github.com/rvirding/luerl/
 About: Lua interpreter written in Erlang
 
 Answers: 
+
 1. How much memory:
  	1000 loaded scripts consumed about 2Mb of virtual memory.
  	
@@ -70,12 +74,10 @@ Because erl-lua seems not maintained, I've used fork https://github.com/Motiejus
 One more interesting thing: it is planned to use Lua for implementing gen_* behaviours (http://m.jakstys.lt/tech/2012/06/erlang-behaviours-in-lua/)
 
 Answers: 
-1. How much memory:
- 	1000 loaded scripts consumed about 5Mb of virtual memory.
-2. How many concurrent instances:
-	As much as erlang VM allows. 
-3. How easy:
-	Not usable currently. 
+
+1. How much memory: 1000 loaded scripts consumed about 5Mb of virtual memory.
+2. How many concurrent instances: As much as erlang VM allows. 
+3. How easy: Not usable, currently. 
 
 erl-lua is just driver for lualib. 
 
