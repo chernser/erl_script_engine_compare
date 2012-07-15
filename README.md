@@ -49,11 +49,14 @@ About: Lua interpreter written in Erlang
 Answers: 
 1. How much memory:
  	1000 loaded scripts consumed about 2Mb of virtual memory.
+ 	
 2. How many concurrent instances:
 	As much as erlang VM allows. 
+	
 3. How easy:
 	Suitable only for cases when result is needed (like some calculations). 
 	To make lua script interact with outer world - changes are needed in luerl
+	
 
 ## erl-lua 
 
